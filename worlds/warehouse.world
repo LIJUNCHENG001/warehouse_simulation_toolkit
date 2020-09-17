@@ -2012,7 +2012,7 @@
     </gui>
 
 
-    <!--create moving objects -->
+    <!--create moving objects 
 
       <actor name="actor1">
       <link name='link'>
@@ -2183,7 +2183,7 @@
           </trajectory>
         </script>
       </actor>
-
+-->
       
   </world>
 </sdf>

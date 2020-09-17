@@ -249,7 +249,7 @@
   </gazebo>
  
 
- <!--_LIDAR -->
+ <!--_LIDAR 
   <gazebo reference="laser">
     <material>Gazebo/FlatBlack</material>
     <sensor type="ray" name="lds_lfcd_sensor">
@@ -314,7 +314,7 @@
     </inertial>
   </link>
 
-
+-->
 
 <!-- Robot locomotion plugin -->
   <gazebo>
@@ -328,7 +328,6 @@
       <wheelDiameter>0.18</wheelDiameter>
       <wheelTorque>5</wheelTorque>
         <wheelAcceleration>0</wheelAcceleration>
-        <robotNamespace>/</robotNamespace>
       <commandTopic>cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
         <odometrySource>world</odometrySource><!--Other option is World or ENCODER-->
